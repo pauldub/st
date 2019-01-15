@@ -5,7 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+// static char *font = "terminus:size=10:antialias=false";
+// static char *font = "Essential PragmataPro:size=10:antialias=true";
+static char *font = "Iosevka SS01:size=10:antialias=true";
 static int borderpx = 2;
 
 /*
@@ -32,7 +34,7 @@ static float chscale = 1.0;
  *
  * More advanced example: " `'\"()[]{}"
  */
-char *worddelimiters = " ";
+char *worddelimiters = " ()[]{}\"'`";
 
 /* selection timeouts (in milliseconds) */
 static unsigned int doubleclicktimeout = 300;
@@ -80,7 +82,7 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
