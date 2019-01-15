@@ -107,7 +107,7 @@ static const char *colorname[] = {
    [15] = "#ffffff", /* white   */
  
    /* special colors */
-   [256] = "#282a36", /* background */
+   [256] = "#1E1B19", /* background */
    [257] = "#f8f8f2", /* foreground */
 };
 
@@ -186,6 +186,7 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+	{ MODKEY,               XK_o,           opencopied,     {.v = "xdg-open"} },
 };
 
 /*
