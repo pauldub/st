@@ -6,8 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 // static char *font = "terminus:size=10:antialias=false";
-// static char *font = "Essential PragmataPro:size=10:antialias=true";
-static char *font = "Iosevka SS01:size=10:antialias=true";
+static char *font = "Essential PragmataPro:size=10:antialias=true";
+// static char *font = "Iosevka SS01:size=10:antialias=true";
 static int borderpx = 2;
 
 /*
